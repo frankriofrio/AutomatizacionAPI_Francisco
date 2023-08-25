@@ -1,5 +1,6 @@
 Concluciones del Ejercicio Propuesto
 
+
 La realización de pruebas es un proceso que puede volverse extenso, pero es una labor importante en el desarrollo de software, pues el propósito de desarrollar sistemas es, entregar al usuario o dueño del producto un software funcional y con una cantidad mínima de errores tal como se le planteó que es el producto que se entrega al finalizar la fase de pruebas, pues los errores que son detectados de manera temprana, será menos complejos de reducir.
 
 Los casos de prueba creados para el presente ejercicio, que fueron automatizados y ejecutados con la herramienta Karate, generaron reportes por cada ejecución. A partir de esto, se pudo realizar la comparación de los tiempos que tarda cada caso de prueba en correr correctamente contra hacer la prueba manualmente. Con esta comparación, se constató de la ventaja que tiene la automatización de prueba en el ahorro de tiempo.
@@ -11,4 +12,4 @@ La api de creación de usuario que se utilizo si realiza la creación correctame
 
 Con estas pruebas automatizadas podemos realizar un certificación más precisa de las apis que se va entregar, de igual manera el informe generado por karate tiene una interfaz web amigable con el usuario facil de entender sobre los resultados obtenidos.
 
-AL haber realizado estas pruebas nos damos cuenta que simplifica en gran medida el tiempo y esfuerzo necesario para probar servicios web HTTP como se lo pudo observar en el presente ejercicio.
+ AL haber realizado estas pruebas nos damos cuenta que simplifica en gran medida el tiempo y esfuerzo necesario para probar servicios web HTTP como se lo pudo observar en el presente ejercicio.
