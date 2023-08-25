@@ -33,17 +33,23 @@ Para ejecutar el proyecto se debe tener instalado lo siguiente:
 
   - Maquina local con el sistema operativo Windows 11
   - JDK versión 17.0.4
-  - Intellij-Idea Community 2022.3.2
+  - Intellij-Idea Ultimate Edition 2022.3.2
   - Gradle 8.0
-
-
 
 ## Ejecucion
 - Para ejecutar el proyecto
+        1. Abrir el IDE IntellijIdea
+        2. Ingresar en la opción File -> Open y ubicarse en el proyecto (abrir)
+        3. Esperar unos minutos para que se descargen las despendencias (gradle)
+        4. Opciòn 1: Ubicarse y ejecutar la clase RunnerforExercise.java (src/test/java/userCrud/runner.java).
+            - La clase ejecutara los features de forma ordenada según el ejercicio realizado
+            - ## Reporte Karate: Una vez finalizada la ejecución se crea el informe propio de Karate para visualizarlo ubicarse en la ruta target/karate-reports/karate-summary.html
+        5. Opción 2: Ubicarse y ejecutar la clase ManagementTest.java (src/test/java/userCrud/ManagementTest.java).
+            - La clase ejecutara los features de forma ordenada según el ejercicio realizado
+            - ## Reporte Cucumber Una vez finalizada la ejecución se crea el informe realizado con Cucumber para visualizarlo ubicarse en la ruta build/cucumber-html-reports/overview-features.html
 
-       1. Ejecutar el IDE IntelliJ
-       2. Ir a File -> Open y abrir el proyecto
-       3. Esperar hasta que se descargen las despendencias de gradle para serenity bdd
-       4. Ejecutar la clase Runner.java
-            - Se ejecutará el proceso en consola de forma ordenada según lo solicitado para el ejercicio
-       5. Finalizada la ejecución de la prueba el Reporte de Karate se creará en la ruta target/karate-reports/karate-summary.html
+## Información adicional
+Repositorio Francisco Riofrío:https://github.com/frankriofrio/AutomatizacionAPI_Francisco.git
+Referencia karate: https://www.karatelabs.io/
+Repositorio Karate: https://github.com/karatelabs/karate
+
